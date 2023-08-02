@@ -452,6 +452,28 @@ font-size: 12px;
         display: none;
     }
     
+    .btn p{
+        display: none;
+
+    }
+
+
+    .box1, .box2, .box3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 350px;
+        height: 250px;
+    }
+
+    .box1 p{
+        font-size: 25px;
+        }
+    .box2 p, .box3 p{
+    font-size: 20px;
+    }
+
+
     .content{
         margin-right: 5px;
     }
@@ -463,6 +485,7 @@ font-size: 12px;
     .logo h2 {
     display: none;
     }
+
 
     .btn button {
     font-size: 18px;
@@ -476,6 +499,8 @@ font-size: 12px;
 
     .boxgeral {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
     }
 
